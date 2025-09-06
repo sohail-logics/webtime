@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "WebTime",
+  "version": "1.0",
+  "description": "Track website usage and set time limits",
+  "permissions": [
+    "storage",
+    "tabs",
+    "notifications",
+    "alarms",
+    "idle"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

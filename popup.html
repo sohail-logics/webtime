@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WebTime</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <h1>WebTime</h1>
+    <p id="dateText"></p>
+  </div>
+
+  <div class="summary">
+    <strong>Total Chrome Time:</strong> <span id="totalTime">00:00:00</span>
+  </div>
+
+  <div id="sites"></div>
+
+  <div class="set-limit">
+    <input type="text" id="domainInput" placeholder="example.com">
+    <input type="number" id="minutesInput" placeholder="Minutes">
+    <button id="saveLimit">Save Limit</button>
+  </div>
+
+  <div class="footer">
+    <button id="clearBtn">Clear Today</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

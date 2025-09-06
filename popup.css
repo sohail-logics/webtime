@@ -1,0 +1,119 @@
+:root{
+  --bg:#0f172a;
+  --card:#111827;
+  --soft:#1f2937;
+  --text:#f8fafc;
+  --muted:#94a3b8;
+  --accent:#22c55e;
+  --accent2:#38bdf8;
+  --danger:#ef4444;
+}
+
+*{ box-sizing:border-box; font-family:system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif; }
+
+body{
+  margin:0;
+  background: linear-gradient(135deg, #0b1020, #0f172a 60%);
+  color:var(--text);
+  min-width: 360px;
+  padding: 12px;
+}
+
+.header h1{
+  margin:0;
+  font-size:22px;
+  font-weight:700;
+  color: var(--accent2);
+}
+.header p{ color:var(--muted); margin:4px 0 12px; }
+
+.summary{
+  background: var(--card);
+  border-radius:12px;
+  padding:10px;
+  margin-bottom:12px;
+  text-align:center;
+  font-weight:600;
+  box-shadow: 0 4px 10px rgba(0,0,0,.3);
+}
+
+#sites{ margin-bottom:12px; }
+
+.site{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:10px;
+  border-radius:12px;
+  background:#0b1220;
+  border:1px solid #1f2937;
+  margin-bottom:8px;
+}
+
+.site .name{ width:110px; font-weight:600; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+
+.site .bar{
+  flex:1;
+  height:10px;
+  background:#0d1830;
+  border-radius:999px;
+  overflow:hidden;
+  border:1px solid #1e2a44;
+  position:relative;
+}
+
+.site .bar > span{
+  position:absolute; top:0; left:0; bottom:0;
+  width:0%;
+  background: linear-gradient(90deg, var(--accent2), var(--accent));
+}
+
+.site .time{ width:88px; text-align:right; font-variant-numeric: tabular-nums; }
+.site .limit{ width:70px; text-align:right; color:#93c5fd; font-size:12px; }
+
+.site button{
+  background:#0b1220;
+  border:1px solid #334155;
+  color:#cbd5e1;
+  padding:4px 8px;
+  border-radius:8px;
+  cursor:pointer;
+}
+.site button:hover{ border-color:#60a5fa; color:#fff; }
+
+.set-limit{
+  display:flex;
+  gap:8px;
+  margin-bottom:12px;
+}
+
+.set-limit input{
+  flex:1;
+  background:#0b1220;
+  border:1px solid #334155;
+  color:#e5e7eb;
+  padding:8px;
+  border-radius:10px;
+  outline:none;
+}
+
+.set-limit button{
+  background:linear-gradient(90deg, #38bdf8, #22c55e);
+  border:none;
+  color:#031019;
+  padding:8px 14px;
+  border-radius:12px;
+  font-weight:700;
+  cursor:pointer;
+}
+
+.footer{ text-align:center; }
+.footer button{
+  background:#0b1220;
+  border:1px solid #334155;
+  color:#cbd5e1;
+  padding:6px 12px;
+  border-radius:10px;
+  cursor:pointer;
+}
+.footer button:hover{ border-color:#60a5fa; color:#fff; }
