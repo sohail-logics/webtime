@@ -68,7 +68,7 @@ How to install **WebTime** step by step:
 
 If you have any issues or questions, feel free to reach out.  
 
-📧 **Contact**: [sohail.logics@gmail.com]  
+📧 **Contact**: [sohaillogics@gmail.com]  
 🐙 **GitHub**: [sohail-logics]  
 
 ---
