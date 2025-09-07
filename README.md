@@ -1,5 +1,5 @@
 # WebTime
-Track your browsing time, stay focused, and use the web mindfully.
+Track your browsing time, stay focused, and use the web mindfully. (video demo : https://youtu.be/JuLyjTWyFyc )
 
 ---
 <img width="448" height="326" alt="image" src="https://github.com/user-attachments/assets/f04e077c-b6de-4ad4-8938-73c85fb0b426" />
